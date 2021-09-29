@@ -1,8 +1,13 @@
 
 body{
 	/*background: #fd7e14;*/
-	/*background: URL("https://cdn.hipwallpaper.com/i/71/11/WE16Av.jpg");*/
-	background: #343a40;
+	/*background: URL("622448.jpg");*/
+	/*background: #343a40;*/
+
+	background: linear-gradient(-45deg, #553A3A, #06485A, #000000, #067D61);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
 }
 a{
 	position: relative;
@@ -112,5 +117,16 @@ h2{
 	border: 1px solid black;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
