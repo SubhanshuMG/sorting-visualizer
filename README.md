@@ -1,4 +1,4 @@
-# sorting-visualizer
+# Sorting Visualizer
 
 Visualization of 5 sorting algorithms which includes
 - Merge Sort
